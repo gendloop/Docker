@@ -1,0 +1,3 @@
+FROM alpine:latest
+ONBUILD COPY . /app
+CMD ["echo", "Base image is ready."]
