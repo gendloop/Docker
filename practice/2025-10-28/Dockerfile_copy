@@ -1,0 +1,3 @@
+FROM alpine:latest
+COPY Dockerfile_run /home
+CMD echo "Image has been built." && cat /home/Dockerfile_run
