@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker build -t gendloop/run:v1.0.0 .
+docker build -t gendloop/run:v0.0.1 .
 docker image ls gendloop/run
-docker run --rm gendloop/run:v1.0.0
-docker image rm gendloop/run:v1.0.0
+docker run --rm gendloop/run:v0.0.1
+docker image rm gendloop/run:v0.0.1
