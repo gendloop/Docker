@@ -4,8 +4,8 @@
 # @date    2025-11-03
 # @author  gendloop
 
-docker build -t entrypoint:v1.0.0 .
+docker build -t entrypoint:v0.0.1 .
 docker image ls entrypoint
-docker run --rm entrypoint:v1.0.0
-docker run --rm entrypoint:v1.0.0 "New Parameters"
-docker image rm entrypoint:v1.0.0
+docker run --rm entrypoint:v0.0.1
+docker run --rm entrypoint:v0.0.1 "New Parameters"
+docker image rm entrypoint:v0.0.1
