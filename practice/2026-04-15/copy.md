@@ -50,8 +50,8 @@
 
 4. env
 
-```docker
-FROM alpine: latest
-ENV NAME="jane" NUMBER="13"
-CMD echo "HELLO, $NAME, this is $NUMBER"
-```
+    ```docker
+    FROM alpine: latest
+    ENV NAME="jane" NUMBER="13"
+    CMD echo "HELLO, $NAME, this is $NUMBER"
+    ```
